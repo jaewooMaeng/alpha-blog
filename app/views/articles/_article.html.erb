@@ -8,9 +8,6 @@
                                             author:       article.author, 
                                             created_at:   article.created_at, 
                                             updated_at:   article.updated_at }) %>
-        <div class="article-body">
-          
-        </div>
         <% if article.categories.any? %>
           <p>Categories: <%= render article.categories %></p>
         <% end %>
